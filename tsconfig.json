@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"jsx": "react",
+		"esModuleInterop": true,
+		"types": ["jest"],
+		"strict": false,
+		"skipLibCheck": true,
+		"declaration": true,
+		"allowSyntheticDefaultImports": true,
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"exclude": ["node_modules", "*.config.js", "*.md"]
+}
